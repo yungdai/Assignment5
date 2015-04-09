@@ -8,7 +8,13 @@
 
 #import "Car.h"
 
-@implementation Car
+@implementation Car {
+    double _odometer;
+    
+}
 
+-(void)drive {
+    NSLog(@"Driving a %@. Vrooooom!", self.model);
+}
 
 @end
