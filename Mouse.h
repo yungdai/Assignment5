@@ -12,7 +12,7 @@
 
 
 
--(void)click;
+-(BOOL)click;
 -(void)move;
 -(void)recharge;
 -(void)replaceBatteries;
