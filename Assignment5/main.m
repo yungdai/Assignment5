@@ -20,6 +20,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Changed the car to a %@", toyota.model);
         
         [toyota drive];
+        
+        
     }
     return 0;
 }

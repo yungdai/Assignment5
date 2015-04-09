@@ -26,4 +26,19 @@ static NSString* _defaultModel;
     _defaultModel = [aModel copy];
 }
 
+-(id)initWithModel:(NSString *)aModel {
+    self = [super init];
+    if (self) {
+        // Any Custom setup work goes here
+        _model = [aModel copy];
+        _odometer = 0;
+    }
+    return self;
+}
+
+- (id)init {
+    // Forward to the "designated" initalization method
+    return [self initWithModel:_defaultModel];
+}
+
 @end
