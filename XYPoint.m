@@ -45,12 +45,10 @@
 
 
 // method for getting the Cartesian coordinates from X and Y
--(NSString *) coordinate {
+-(NSArray *) coordinate {
     
-    NSString *coordinate = (@"Your location is (x: %@), (y:%@).", _xCoordinate, _yCoordinate);
-    
-    NSLog(@"Your location is (x: %@), (y:%@).", _xCoordinate, _yCoordinate);
-    return coordinate;
+    NSArray* container1 = [[NSArray alloc]initWithObjects:_xCoordinate,_yCoordinate, nil];
+    return container1;
     
 }
 

@@ -15,6 +15,7 @@ int main(int argc, const char * argv[]) {
         [location setXCoordinate: @5];
         [location setYCoordinate: @6];
         [location coordinate];
+        NSLog(@"Your location is x:%@, y:%@", location.coordinate[0], location.coordinate[1]);
 
     }
     return 0;

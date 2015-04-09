@@ -18,11 +18,11 @@
 
 
 -(void) setXCoordinate : (NSNumber *) xCoordinate;
--(void) setYCoorindate : (NSNumber *) yCoorindate;
+-(void) setYCoorindate : (NSNumber *) yCoordinate;
 
 -(NSNumber *)getXCoordinate;
 -(NSNumber *)getYCoorindate;
 
--(NSString *) coordinate;
+-(NSArray *) coordinate;
 
 @end
