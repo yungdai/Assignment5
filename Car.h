@@ -14,6 +14,7 @@
 @property (copy) NSString *model;
 
 -(void)drive;
++(void)setDefaultModel:(NSString *)aModel;
 
 
 @end
