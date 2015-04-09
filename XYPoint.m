@@ -10,6 +10,9 @@
 
 @implementation XYPoint
 
+//int _xCoordinate;
+//int _yCoordinate;
+
 - (instancetype)init
 {
     self = [super init];
@@ -42,11 +45,11 @@
 
 
 // method for getting the Cartesian coordinates from X and Y
--(NSString *) coordinate:(NSNumber *)xCoordinate :(NSNumber *)yCoordinate {
+-(NSString *) coordinate {
     
-    NSString *coordinate = (@"Your location is (x: %@), (y:%@).", [_xCoordinate stringValue], [_yCoordinate stringValue]);
+    NSString *coordinate = (@"Your location is (x: %@), (y:%@).", _xCoordinate, _yCoordinate);
     
-    NSLog(@"Your location is (x: %@), (y:%@).", [xCoordinate stringValue], [yCoordinate stringValue]);
+    NSLog(@"Your location is (x: %@), (y:%@).", _xCoordinate, _yCoordinate);
     return coordinate;
     
 }

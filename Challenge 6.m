@@ -14,8 +14,8 @@ int main(int argc, const char * argv[]) {
         XYPoint *location = [[XYPoint alloc]init];
         [location setXCoordinate: @5];
         [location setYCoordinate: @6];
-        [location coordinate:[location getXCoordinate] :[location getYCoorindate]];
-        
+        [location coordinate];
+
     }
     return 0;
 }

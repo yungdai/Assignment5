@@ -23,6 +23,6 @@
 -(NSNumber *)getXCoordinate;
 -(NSNumber *)getYCoorindate;
 
--(NSString *) coordinate : (NSNumber *) xCoordinate : (NSNumber *) yCoordinate;
+-(NSString *) coordinate;
 
 @end
