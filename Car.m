@@ -41,4 +41,12 @@ static NSString* _defaultModel;
     return [self initWithModel:_defaultModel];
 }
 
++(void)initialize {
+    if (self == [Car class]) {
+        // Makes sure this isn't excuted more than once
+        
+        _defaultModel = @"Nissan Versa";
+    }
+}
+
 @end
