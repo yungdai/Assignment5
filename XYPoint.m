@@ -44,7 +44,7 @@
 // method for getting the Cartesian coordinates from X and Y
 -(NSString *) coordinate:(NSNumber *)xCoordinate :(NSNumber *)yCoordinate {
     
-    NSString *coordinate = (@"Your location is (x: %@), (y:%@).", [xCoordinate stringValue], [yCoordinate stringValue]);
+    NSString *coordinate = (@"Your location is (x: %@), (y:%@).", [_xCoordinate stringValue], [_yCoordinate stringValue]);
     
     NSLog(@"Your location is (x: %@), (y:%@).", [xCoordinate stringValue], [yCoordinate stringValue]);
     return coordinate;

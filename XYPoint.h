@@ -25,5 +25,4 @@
 
 -(NSString *) coordinate : (NSNumber *) xCoordinate : (NSNumber *) yCoordinate;
 
-
 @end

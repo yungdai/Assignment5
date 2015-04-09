@@ -12,7 +12,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         XYPoint *location = [[XYPoint alloc]init];
-        [location coordinate:@5 :@6];
+        [location setXCoordinate: @5];
+        [location setYCoordinate: @6];
+        [location coordinate:[location getXCoordinate] :[location getYCoorindate]];
         
     }
     return 0;
