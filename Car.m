@@ -16,7 +16,7 @@ static NSString* _defaultModel;
 }
 // optional
 
-@synthesize model = _model;
+//@synthesize model = _model;
 
 -(void)drive {
     NSLog(@"Driving a %@. Vrooooom!", self.model);

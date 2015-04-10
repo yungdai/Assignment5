@@ -10,6 +10,7 @@
 
 @implementation XYPoint
 
+
 //int _xCoordinate;
 //int _yCoordinate;
 
@@ -22,33 +23,33 @@
     }
     return self;
 }
-// setter method for the actions fromt the header for the coordinates
-
--(void) setXCoordinate:(NSNumber *)xCoordinate {
-    _xCoordinate = xCoordinate;
-
-}
-
--(void) setYCoordinate:(NSNumber *)yCoordinate {
-    _yCoordinate = yCoordinate;
-    
-}
-
-// getter methods for the actions in from the header for the coordinates
--(NSNumber *)getXCoordinate {
-    return _xCoordinate;
-}
-
--(NSNumber *)getYCoorindate {
-    return _yCoordinate;
-}
+//// setter method for the actions fromt the header for the coordinates
+//
+//-(void) setXCoordinate:(NSNumber *)xCoordinate {
+//    _xCoordinate = xCoordinate;
+//
+//}
+//
+//-(void) setYCoordinate:(NSNumber *)yCoordinate {
+//    _yCoordinate = yCoordinate;
+//    
+//}
+//
+//// getter methods for the actions in from the header for the coordinates
+//-(NSNumber *)getXCoordinate {
+//    return _xCoordinate;
+//}
+//
+//-(NSNumber *)getYCoorindate {
+//    return _yCoordinate;
+//}
 
 
 // method for getting the Cartesian coordinates from X and Y
 -(NSArray *) coordinate {
     
-    NSArray* container1 = [[NSArray alloc]initWithObjects:_xCoordinate,_yCoordinate, nil];
-    return container1;
+    NSArray* container = [[NSArray alloc]initWithObjects:_xCoordinate,_yCoordinate, nil];
+    return container;
     
 }
 
